@@ -1,0 +1,36 @@
+{
+  "name": "craftstudio.js",
+  "version": "1.0.0",
+  "description": "Craftstudio - Models &amp; Animations loader for THREE.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "cross-env tsc && webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraxken/Craftstudio.js.git"
+  },
+  "keywords": [],
+  "author": "GENTILHOMME Thomas <gentilhomme.thomas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fraxken/Craftstudio.js/issues"
+  },
+  "homepage": "https://github.com/fraxken/Craftstudio.js#readme",
+  "dependencies": {
+    "three": "^0.109.0"
+  },
+  "devDependencies": {
+    "@slimio/eslint-config": "^3.0.3",
+    "@types/node": "^12.7.11",
+    "@types/three": "^0.103.2",
+    "cross-env": "^6.0.3",
+    "electron": "^6.0.11",
+    "eslint": "^6.5.1",
+    "typescript": "^3.6.3",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
+}

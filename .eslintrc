@@ -1,0 +1,14 @@
+{
+  "extends": "@slimio/eslint-config",
+  "rules": {
+      "no-param-reassign": "off",
+      "max-params": "off",
+      "jsdoc/require-jsdoc": "off",
+      "id-length": "off",
+      "no-mixed-operators": "off",
+      "no-extra-parens": "off"
+  },
+  "env": {
+      "browser": true
+  }
+}
