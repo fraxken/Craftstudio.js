@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/fraxken/Craftstudio.js#readme",
   "dependencies": {
-    "three": "^0.109.0"
+    "three": "^0.137.0"
   },
   "devDependencies": {
     "@slimio/eslint-config": "^3.0.3",
